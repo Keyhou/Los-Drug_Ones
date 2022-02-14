@@ -11,6 +11,7 @@
 		51A4A7E527B5B7630093D611 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A4A7E427B5B7630093D611 /* ContentView.swift */; };
 		51A4A7E727B5B7640093D611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A4A7E627B5B7640093D611 /* Assets.xcassets */; };
 		51A4A7EA27B5B7640093D611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A4A7E927B5B7640093D611 /* Preview Assets.xcassets */; };
+		EF4D6D1B27BA7BE00085337A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4D6D1A27BA7BE00085337A /* ScheduleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		51A4A7E427B5B7630093D611 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51A4A7E627B5B7640093D611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51A4A7E927B5B7640093D611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4D6D1A27BA7BE00085337A /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				51A4A7E227B5B7630093D611 /* Los_Drug_OnesApp.swift */,
 				51A4A7E427B5B7630093D611 /* ContentView.swift */,
+				EF4D6D1927BA7BC70085337A /* View */,
 				51A4A7E627B5B7640093D611 /* Assets.xcassets */,
 				51A4A7E827B5B7640093D611 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				51A4A7E927B5B7640093D611 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4D6D1927BA7BC70085337A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF4D6D1A27BA7BE00085337A /* ScheduleView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				51A4A7E527B5B7630093D611 /* ContentView.swift in Sources */,
 				51A4A7E327B5B7630093D611 /* Los_Drug_OnesApp.swift in Sources */,
+				EF4D6D1B27BA7BE00085337A /* ScheduleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
